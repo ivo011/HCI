@@ -3,18 +3,10 @@
 ## low fidelity prototypes
 
 ## Desktop version
-![](./Low-fidelity/HomePage.png) 
-![](./Low-fidelity/LoggedIn.png)
-![](./Low-fidelity/BlogPage.png)
+<img src="./Low-fidelity/HomePage.png" width="350px">
+<img src="./Low-fidelity/LoggedIn.png" width="350px">
+<img src="./Low-fidelity/BlogPage.png" width="350px">
 
 
 ## Mobile version
-![](./Low-fidelity/mobile.png)
-
-<style> 
-  img{
-      width: 350px;
-      height: 450px;
-      margin: 5px;
-  }
-</style>
+<img src="./Low-fidelity/mobile.png" width="350px">

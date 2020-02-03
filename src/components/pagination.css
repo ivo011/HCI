@@ -1,0 +1,21 @@
+/* Stilovi koji utjecu na pagination koji se nalazi ZASAD na store komponenti */
+/* Uz pagination su tu i elementi za pojedini broj paginationa */
+.pagination{
+    display: inline-flex;
+    border: black solid 1px;
+    /* width: 12vw; */
+    justify-content: center;
+    background-color: #1F2833;
+    margin-bottom: 5px;
+
+}
+
+.pagination-item{
+    background-color: #38424E;
+    color: white;
+    border: black solid 1px;
+    padding: 10px;
+    margin: 5px 10px;
+    font-size: larger;   
+    cursor: pointer;
+}

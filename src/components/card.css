@@ -1,0 +1,21 @@
+/* Stilovi za jednu karticu i pojedine njene elemente */
+.card{
+    border: 1px solid black;
+    width:15vw;
+    display:table;
+    margin:10px;
+    background-color:#1F2833;
+    color: white; 
+}
+
+.card .picture img{
+    width:15vw;    
+}
+
+.card-info{
+    text-align: center;
+}
+
+.card-info p,h2{
+    margin: 0; 
+}

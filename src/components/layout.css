@@ -1,0 +1,148 @@
+/* Stilovi za body */
+/* Stilovi za Main Layout tj layout za sve osim Home Pagea */
+/* Layout  se mijenja s obzirom na rezoluciju. Vidi sam zasto */
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+.layoutMain{
+    border: 2px solid red;
+    height: 100vh;     
+    display: grid;
+    grid-template-columns: 1fr  9fr;
+    grid-template-rows: 50px  auto 30px; 
+    grid-template-areas: 
+    "header header"
+    "navigation main"
+    "footer footer";    
+}
+
+@media screen and (max-width: 600px) and (min-width: 1400px){
+    .layoutMain  {
+        grid-template-columns: 2fr  9fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .layoutMain  {
+        display: grid;
+        grid-template-columns : 1fr;
+        grid-template-rows: 1fr 1fr 8fr 0.5fr;
+        grid-template-areas: 
+        "header"
+        "navigation"
+        "main"
+        "footer";
+    }
+  } 
+
+/* Stilovi za Header na svim layoutima */
+/* Takoder stilovi za Header elemente na svim layoutima */
+.header{
+    background-color: #1F2833;  
+    border: 2px solid blue;
+    grid-area: header; 
+    display:flex;
+    justify-content:center;
+}
+
+.search-bar{
+    width: 25%;
+    height: 30px;
+    align-self:  center;
+    border: 1px solid black;    
+}
+
+.header-buttons{
+    display:flex;
+    position: absolute; 
+    right:0
+}
+
+/* Stilovi za komponentu koji sadrzi navigaciju na svim layoutima   */
+/* Takoder nadodan media screen zbog responzivnosti na sirini 600px */
+/* Uz to i stilovi za elemente koje sadrzi komponenta NavContainer  */
+.NavContainer {
+    grid-area: navigation;
+    border: 3px solid purple;
+    background-color: #1F2833;    
+    display: flex;   
+    flex-direction: column;   
+}
+
+@media screen and (max-width: 600px) {
+    .NavContainer{
+        justify-content: center;
+        position: sticky;
+        top:0; 
+        z-index: 100;
+    }
+}
+
+.navigation{
+    border: 2px solid green;
+    background-color: #1F2833;        
+    margin:0; 
+    padding:0;      
+    height: 450px;
+    position: sticky;
+    top: 0;
+    align-self: center;
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+@media screen and (max-width: 600px) {
+    .navigation{  
+      /* display: inline-table; */
+      flex-direction: row;   /*za navigaciju*/
+      height: 100%;
+      width:100%;
+      z-index: 100;     
+    }
+}
+
+button{
+    padding: 0px;
+    margin: 0;
+    border:  #66FCF1 solid 1px;
+    background-color: #1F2833;     
+    transition: 0.3s;    
+}
+
+button:hover {
+    background-color: gray; 
+  }
+
+.navButton{   
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;  
+}
+
+.navigation a{
+    text-decoration: none; 
+    color: white;    
+    border:1px solid white;
+}
+
+/* Svojstva za footer na svim stranicama */
+.footer{
+    border: 2px solid yellow;
+    background-color: #1F2833;  
+    color: #66FCF1;     
+    grid-area: footer;
+    text-align: center;
+}
+
+/* Za ovo nisam siguran di logicki pripada. Ako saznas stavi ga */
+li{
+    list-style-type: none;
+}
+
+ul, li{
+    margin: 0; 
+    padding: 0;
+}

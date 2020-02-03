@@ -1,0 +1,27 @@
+/* Stilovi za kontejner u kojem se nalaze novosti*/
+.news-container{
+    background-color:#0A1421;
+    /*border:1px solid orange;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+}
+
+/* Stilovi za jedinstveni post i njegove elemente*/
+.news-post{
+    background-color:#1F2833;
+    border:1px solid black;
+    margin:20px;
+    padding:10px;
+    color:white;
+}
+
+.news-post h4{
+    margin:0;
+}
+
+.news-info{
+    display:flex;
+    justify-content: space-between;
+}

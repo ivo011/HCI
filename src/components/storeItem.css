@@ -1,0 +1,21 @@
+.store h1{
+    color:white;
+}
+.item{
+    margin:30px;
+   
+    display:flex;
+    background-color:#1F2833;
+    width:50%;    
+    
+}
+.itemPicture{
+    width:80%;
+}
+.itemInfo{
+    width:50%;
+}
+.store button{
+    padding:10px 20px;
+    align-self: flex-end;
+}

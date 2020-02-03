@@ -1,0 +1,33 @@
+/* Stilovi koji se ticu store komponente */
+.store-grid{
+    padding:10px;
+    border:2px solid #FF00FF;
+    height: 100%;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));      
+    justify-items: center;
+    align-items: center;
+} 
+.store{
+    background-color:#0A1421;
+    display:flex;
+    flex-direction: column;
+}
+.store-grid .card{
+    width: 80%;
+    height: 90%;
+   
+}
+.store-grid .card h2:hover{
+    cursor: pointer;
+    color: #66FCF1;
+}
+/* .storeCard{
+    margin:10px;
+    background-color:#1F2833;
+    color: white;   
+} */
+
+.pagination-element{
+    align-self: center;   
+}

@@ -49,7 +49,7 @@ const Store = ({data}) => {
         <div>
         {redirect ? renderRedirect()  :<div>
             <SEO title = "Store"/>
-            <Layout>  
+            <Layout layoutFilter = {0}>  
                 <div className = "store"> 
                     <div className = "store-grid">                       
                         {currentPosts}                                       

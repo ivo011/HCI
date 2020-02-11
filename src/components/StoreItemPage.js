@@ -9,7 +9,7 @@ const StoreItemPage = ({productData, setButtonState}) => {
     return (
         <div>
             <SEO title = {productData[0]["name"]}/>
-            <Layout>  
+            <Layout layoutFilter = {2}>  
                 <div className = "store">
                     <div className="item">
                         <div className="itemPicture"><Img key = {222} fluid={productData.node.childImageSharp.fluid}/></div> 
@@ -18,10 +18,8 @@ const StoreItemPage = ({productData, setButtonState}) => {
                             <h1>{productData[0]["price"]}</h1>
                             <button onClick={() => setButtonState(0)}> BACK </button>   
                             <button > BUY </button>  
-                         </div>                                    
-                        
-                    </div>        
-                    
+                         </div>                                       
+                    </div>          
                 </div> 
             </Layout>  
         </div>

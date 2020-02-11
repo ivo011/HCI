@@ -5,7 +5,7 @@ import "./layout.css"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const Layout = ({children, callback}) => {  
+const Layout = ({children, callback,layoutFilter}) => {  
   
     // Ovaj query dohvaca podatke za navigaciju i za cover image
     const nav = useStaticQuery(graphql`
@@ -40,10 +40,10 @@ const Layout = ({children, callback}) => {
     // Children vraca elemente koji se prikazuju pa je to ili Home ili nesto drugo
     // Ako je Home ide layout za home i cover image , a za bilo sta drugo ide obicni layout bez covera
     // Layout za home je layoutHome, a za ostalo je layoutMain
-    var layoutFilter = (children["type"]).toString()
-    var layout;
-    var className;
-    if (layoutFilter.includes("Home")) {
+    let layout=undefined;
+    let className=undefined;
+
+    if (layoutFilter === 2) {
         layout = 1;
         className = "layoutHome"
     }
@@ -51,9 +51,6 @@ const Layout = ({children, callback}) => {
         layout = 0;
         className = "layoutMain"
     }
-
-    // Tesni ispis varijable koja filtrira layout
-    console.log("LAYOUT - Varijabla koja odreduje layout: ", children["type"])
 
     // Raspakirava se dohvacena data u navitems koji se salje u navigation
     const { navItems } = nav.site.siteMetadata

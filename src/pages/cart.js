@@ -7,7 +7,7 @@ const Cart = () => {
     return(
         <div>
             <SEO title = "Cart"/>
-            <Layout>
+            <Layout layoutFilter = {0}>
                 <h1>CART PAGE</h1>
             </Layout>           
         </div>

@@ -41,7 +41,7 @@ export const query = graphql`
             body
           frontmatter {
             author
-            date
+            date(formatString: "DD. MMMM YYYY")
             keywords
             title
           }

@@ -9,7 +9,7 @@ const StoreItemPage = ({productData, setButtonState}) => {
     return (
         <div>
             <SEO title = {productData[0]["name"]}/>
-            <Layout layoutFilter = {2}>  
+            <Layout layoutFilter = {0}>  
                 <div className = "store">
                     <div className="item">
                         <div className="itemPicture"><Img key = {222} fluid={productData.node.childImageSharp.fluid}/></div> 

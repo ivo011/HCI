@@ -24,7 +24,6 @@ const Home = ({data}) => {
         }
       }
 
-    console.log(renderRedirect() )
     return (
         <div className="home-grid" > {redirect ? renderRedirect() :
         <div>

@@ -7,6 +7,7 @@ import Pagination from "../components/pagination"
 import Card from "../components/card"
 import {useState, useEffect} from "react"
 import StoreItemPage from "../components/StoreItemPage"
+import Notification from "../components/notification"
 
 
 const Store = ({data}) => {
@@ -16,13 +17,23 @@ const Store = ({data}) => {
     const [redirect,setRedirect]= useState(0)
     const [redirectData, setRedirecData]=useState(0)
 
+    //state za notifikaciju
+    const [top, setTop ] = useState(-100); 
+
+    const ShowNotification = () =>{
+        setTop(60);
+        setTimeout(()=>{
+            setTop(-100);
+        },2000)
+    }
+
     const setProductData = (data) => { setRedirecData(data); setRedirect(1) }
     const setButtonState = () => { setRedirect(0) }
 
     function renderRedirect ()  {
         console.log(setButtonState)
         if (redirect === 1) {
-          return <div><StoreItemPage productData={redirectData} setButtonState={setButtonState}></StoreItemPage></div>
+          return <div><StoreItemPage productData={redirectData} setButtonState={setButtonState} ShowNotification={ShowNotification}></StoreItemPage></div>
         }
       }
 
@@ -51,6 +62,7 @@ const Store = ({data}) => {
             <SEO title = "Store"/>
             <Layout layoutFilter = {0}>  
                 <div className = "store"> 
+                    <Notification top={top}/>
                     <div className = "store-grid">                       
                         {currentPosts}                                       
                     </div>

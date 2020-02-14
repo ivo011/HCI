@@ -1,7 +1,6 @@
 /* Layout stilovi za Home stranicu. Jedinstvena su zbog covera. Na maloj rezoluciji nestaje cover. */
 /* Na maloj rezoluciji nestaje cover. Takoder se sa smanjenjem rez mijenja grid template. Testiraj pa ces vidit zasto */
-.layoutHome{    
-    border: 2px solid red;
+.layoutHome{       
     height: 100vh;     
     display: grid;
     grid-template-columns: 1fr  9fr;
@@ -74,6 +73,11 @@
 .offers .card{
     background-color:#1F2833;
     color: white;
+    
+}
+
+.offers h1{
+    margin:0;
 }
 
 @media screen and (max-width: 1100px) and (min-width: 600px) {

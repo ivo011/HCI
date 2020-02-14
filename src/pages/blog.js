@@ -25,9 +25,9 @@ const Blog = ({data}) => {
     let temp= data.allMdx.edges.map((node, index) => {                
         return <div className = "blog-post" key = {index}>
                     <div className = "blog-info">
-                        <h4>{node.node.frontmatter.title}</h4>
-                        <h4>Author : {node.node.frontmatter.author}</h4>
-                        <h4>Date : {node.node.frontmatter.date}</h4>                          
+                        <h2>{node.node.frontmatter.title}</h2>
+                        <h4>Author: {node.node.frontmatter.author}</h4>
+                        <h4>Date: {node.node.frontmatter.date}</h4>                          
                     </div>                                    
                     <MDXRenderer>{node.node.body}</MDXRenderer>                                                      
     </div>})
@@ -46,7 +46,8 @@ const Blog = ({data}) => {
             <SEO title = "Blog"/>
             <Layout>
                 <div className = "blog-container"> 
-                    {currentPosts}
+                    <button className="addBlog-button">ADD BLOG</button>
+                    <div className="blog-grid">{currentPosts}</div>
                     <div className = "pagination-element"><Pagination postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate}/></div>
                 </div>
             </Layout>    

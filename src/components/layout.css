@@ -6,8 +6,7 @@ body{
     padding: 0;
 }
 
-.layoutMain{
-    border: 2px solid red;
+.layoutMain{    
     height: 100vh;     
     display: grid;
     grid-template-columns: 1fr  9fr;
@@ -28,7 +27,7 @@ body{
     .layoutMain  {
         display: grid;
         grid-template-columns : 1fr;
-        grid-template-rows: 1fr 1fr 8fr 0.5fr;
+        grid-template-rows: 50px 1fr 8fr 0.5fr;
         grid-template-areas: 
         "header"
         "navigation"
@@ -40,11 +39,10 @@ body{
 /* Stilovi za Header na svim layoutima */
 /* Takoder stilovi za Header elemente na svim layoutima */
 .header{
-    background-color: #1F2833;  
-    border: 2px solid blue;
+    background-color: #1F2833;      
     grid-area: header; 
     display:flex;
-    justify-content:center;
+    justify-content: space-between;
 }
 
 .search-bar{
@@ -55,17 +53,25 @@ body{
 }
 
 .header-buttons{
-    display:flex;
-    position: absolute; 
-    right:0
+    display:flex;  
+}
+
+.header-buttons button{
+    border: 1px solid white; 
+    border-top: none;
+    margin: 0px 5px;   
+}
+.header-buttons a{    
+    text-decoration: none; 
+    color: white;    
+    
 }
 
 /* Stilovi za komponentu koji sadrzi navigaciju na svim layoutima   */
 /* Takoder nadodan media screen zbog responzivnosti na sirini 600px */
 /* Uz to i stilovi za elemente koje sadrzi komponenta NavContainer  */
 .NavContainer {
-    grid-area: navigation;
-    border: 3px solid purple;
+    grid-area: navigation;    
     background-color: #1F2833;    
     display: flex;   
     flex-direction: column;   
@@ -76,12 +82,12 @@ body{
         justify-content: center;
         position: sticky;
         top:0; 
-        z-index: 100;
+        z-index:10;
     }
 }
 
 .navigation{
-    border: 2px solid green;
+   
     background-color: #1F2833;        
     margin:0; 
     padding:0;      
@@ -124,13 +130,12 @@ button:hover {
 
 .navigation a{
     text-decoration: none; 
-    color: white;    
+    color: white;      
     border:1px solid white;
 }
 
 /* Svojstva za footer na svim stranicama */
-.footer{
-    border: 2px solid yellow;
+.footer{   
     background-color: #1F2833;  
     color: #66FCF1;     
     grid-area: footer;

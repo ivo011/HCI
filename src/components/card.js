@@ -9,6 +9,7 @@ const Card = ({data,metadata,setProductData}) => {
     let postFilter = undefined
     console.log("CARD - Ovo je data koja je dosla na Card: " ,data)
     console.log("CARD - Ovo je metadata koja je dosla na Card: ", metadata)
+    
 
     if(metadata !== undefined){
 
@@ -29,13 +30,12 @@ const Card = ({data,metadata,setProductData}) => {
     cardData["node" ] = data["node"]
 
     return (
-
-        <div className="card" onClick = {() => setProductData(cardData)} >
-            <Img key = {data.node.id} fluid = {data.node.childImageSharp.fluid}/>
+        <div className="card">
+            <div className="card-img"><Img key = {data.node.id} fluid = {data.node.childImageSharp.fluid}/> </div>
             <div className="card-info">
                 {metadata ? metadata_filtered[0] ? metadata_filtered[0]['name'] ?  <h1>{metadata_filtered[0]["name"]}</h1> : false :  false : false}
                 {metadata ? metadata_filtered[0] ? metadata_filtered[0]['price'] ?  <h3>{metadata_filtered[0]["price"]}</h3> : false :  false : false}
-                {postFilter ? <h2>BUY NOW</h2> : false}
+                {postFilter ? <h2 onClick = {() => setProductData(cardData)}>BUY NOW</h2> : false}
             </div>
        </div>        
     )

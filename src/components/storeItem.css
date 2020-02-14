@@ -2,20 +2,39 @@
     color:white;
 }
 .item{
-    margin:30px;
-   
+    margin:30px;   
     display:flex;
     background-color:#1F2833;
-    width:50%;    
+    width:50%;  
+    padding:20px;  
     
 }
 .itemPicture{
-    width:80%;
+    width:60%;
 }
 .itemInfo{
-    width:50%;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    margin:0px 5px;
+    justify-content: space-between;
+}
+.itemInfo h1{
+    margin:0;
+}
+.itemInfo .itemButtons{
+    display:flex;
+    justify-content: flex-end;
+}
+.itemButtons button{
+    margin:5px;
+    padding:20px 40px;
 }
 .store button{
-    padding:10px 20px;
-    align-self: flex-end;
+    padding:10px 20px;  
+    color: white; 
+    border: 1px solid white;  
+}
+.store button:hover{
+    cursor: pointer;
 }

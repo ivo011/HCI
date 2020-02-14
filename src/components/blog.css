@@ -7,15 +7,25 @@
     align-items: center;
     padding:30px;
 }
-
+.blog-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));  
+   
+}
+.addBlog-button{
+    border: 1px solid white; 
+    color:white;
+    padding: 10px 20px;
+}
+.addBlog-button:hover{
+    cursor: pointer;
+}
 /* Stilovi za jedinstveni post i njegove elemente*/
 .blog-post{
-    background-color:#1F2833;
-    border:1px solid black;
-    margin:20px;
+    background-color:#1F2833;   
+    margin:10px 20px;
     padding:10px;
-    color:white;
-    max-width: 900px;
+    color:white;    
 }
 
 .blog-post h4{
@@ -26,4 +36,12 @@
     display: grid;
     justify-content: space-between;
     grid-gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-grid{
+        display:grid;
+        grid-template-columns: 1fr;  
+    }
+    
 }

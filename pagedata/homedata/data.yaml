@@ -1,12 +1,12 @@
 - key: /static/214fbed2892e79c22247a5a0db21f87e/ebd4f/1.jpg
-  name: TEST1
+  name: 'Star Wars Jedi'
   price: 100€
   
   
 - key: /static/7355ca4b172116099f2b727f19f74bce/ebd4f/2.jpg
-  name: TEST2
+  name: Resident Evil 2
   price: 200€
 
 - key: /static/1c05f81cf2ce8e18de9824de7de085e3/ebd4f/3.jpg
-  name: TEST3
+  name: Grand Theft Auto V
   price: 300€

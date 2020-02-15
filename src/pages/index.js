@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Home from "../components/home"
 import { graphql } from 'gatsby'
 
+
 const IndexPage = ({data}) => {
 
     return(

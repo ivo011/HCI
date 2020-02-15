@@ -16,8 +16,25 @@
 }
 .modalInfo{
     display:flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    width:30vw;  
 }
+
+@media screen and (max-width: 950px) {
+    .modalInfo{
+        
+        width:50vw;  
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modalInfo{
+        
+        width:70vw;  
+    }
+}
+
+
 .modalInfo .Buttons{
     align-self: flex-end;
 }

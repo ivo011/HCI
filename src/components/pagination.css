@@ -9,7 +9,6 @@
     margin-bottom: 5px;
 
 }
-
 .pagination-item{
     background-color: #38424E;
     color: white;
@@ -18,4 +17,8 @@
     margin: 5px 10px;
     font-size: larger;   
     cursor: pointer;
+}
+
+.pagination-item:hover{
+    border:1px solid #66FCF1; 
 }

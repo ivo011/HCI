@@ -19,8 +19,7 @@ const StoreItemPage = ({productData, setButtonState, ShowNotification}) => {
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',  
           padding:'20px',        
-          width:'400px',
-                  
+          
         }
       };
 

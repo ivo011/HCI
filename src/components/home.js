@@ -4,6 +4,7 @@ import Card from "./card"
 import {useState, useEffect} from "react"
 import HomeItemPage from "../components/HomeItemPage"
 
+
 const Home = ({data}) => {
 
     // Testni ispod podataka koje su dosle s Index stranice

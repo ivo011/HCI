@@ -7,8 +7,9 @@ import Img from "gatsby-image"
 import "./storeItem.css"
 import "./Modal.css"
 
+
 Modal.setAppElement('body'); 
-const StoreItemPage = ({productData, setButtonState, ShowNotification}) => { 
+const StoreItemPage = ({productData, setButtonState}) => { 
 
     const customStyles = {        
         content : {
@@ -18,9 +19,8 @@ const StoreItemPage = ({productData, setButtonState, ShowNotification}) => {
           bottom: 'auto',
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',  
-          padding:'20px',        
-          width:'400px',
-                  
+          padding:'20px',   
+                         
         }
       };
 
@@ -56,7 +56,7 @@ const StoreItemPage = ({productData, setButtonState, ShowNotification}) => {
                             <h1>{productData[0]["name"]}</h1>
                             <h3>Add {productData[0]["name"]} to cart?</h3>
                             <div className="Buttons">
-                                <button  className="ModalButton yes" onClick={()=>{setModalIsOpen(false); setButtonState(0); ShowNotification();}}>Yes</button> 
+                                <button  className="ModalButton yes" onClick={()=>{setModalIsOpen(false); setButtonState(0);}}>Yes</button> 
                                 <button  className="ModalButton no" onClick={()=>setModalIsOpen(false)}>No</button> 
                             </div>
                           </div>                          

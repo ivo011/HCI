@@ -1,6 +1,5 @@
 /* Stilovi za jednu karticu i pojedine njene elemente */
-.card{
-    border: 1px solid red;    
+.card{        
     display:flex; 
     flex-direction: column;
     margin:10px;

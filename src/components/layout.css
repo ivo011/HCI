@@ -56,10 +56,11 @@ body{
     display:flex;  
 }
 
-.header-buttons button{
+.header-buttons .Button{
     border: 1px solid white; 
     border-top: none;
-    margin: 0px 5px;   
+    margin: 0px 5px; 
+    padding: 10px 20px;  
 }
 .header-buttons a{    
     text-decoration: none; 
@@ -86,8 +87,7 @@ body{
     }
 }
 
-.navigation{
-   
+.navigation{   
     background-color: #1F2833;        
     margin:0; 
     padding:0;      
@@ -97,7 +97,7 @@ body{
     align-self: center;
     display:flex;
     flex-direction: column; 
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;    
 }
 
@@ -108,18 +108,12 @@ body{
       flex-wrap: wrap;
       height: 100%;
       width:100%;
-      z-index: 100;    
-      padding-top: 20px;
-      padding-bottom: 20px; 
+      z-index: 100;        
     }
     .navigation a {
-
-        margin: 5px;
-        
+        margin: 5px;       
     }
 }
-
-
 
 
 button{
@@ -143,6 +137,10 @@ button:hover {
     text-decoration: none; 
     color: white;      
     border:1px solid white;
+}
+.navigation a:hover{
+    border:  #66FCF1 solid 1px;
+    color: #66FCF1;
 }
 
 /* Svojstva za footer na svim stranicama */

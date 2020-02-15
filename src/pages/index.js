@@ -10,7 +10,7 @@ const IndexPage = ({data}) => {
     return(
         <div>
             <SEO title = "Homepage"/>      
-            <Layout layoutFilter = {2}>             
+            <Layout layoutFilter = {2} seachFilter={0}>             
                 <Home data = {data}/>
             </Layout>    
         </div>

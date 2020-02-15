@@ -10,7 +10,7 @@ body{
     height: 100vh;     
     display: grid;
     grid-template-columns: 1fr  9fr;
-    grid-template-rows: 50px  auto 30px; 
+    grid-template-rows: 100px  auto 60px; 
     grid-template-areas: 
     "header header"
     "navigation main"
@@ -49,7 +49,8 @@ body{
     width: 25%;
     height: 30px;
     align-self:  center;
-    border: 1px solid black;    
+    border: 1px solid black;   
+    min-width: 120px; 
 }
 
 .header-buttons{
@@ -61,6 +62,7 @@ body{
     border-top: none;
     margin: 0px 5px; 
     padding: 10px 20px;  
+    max-height: 50px;
 }
 .header-buttons a{    
     text-decoration: none; 
@@ -146,9 +148,11 @@ button:hover {
 /* Svojstva za footer na svim stranicama */
 .footer{   
     background-color: #1F2833;  
-    color: #66FCF1;     
+    color:white;     
     grid-area: footer;
     text-align: center;
+    padding-top: 10px;
+    
 }
 
 /* Za ovo nisam siguran di logicki pripada. Ako saznas stavi ga */
@@ -159,4 +163,38 @@ li{
 ul, li{
     margin: 0; 
     padding: 0;
+}
+
+
+/* Logo svojstva */
+
+.logo{
+
+    max-width: 150px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1700px) {
+    .logo {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .logo {
+        margin-left: 0px;
+        max-width: 130px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        max-width: 110px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        max-width: 90px;
+    }
 }

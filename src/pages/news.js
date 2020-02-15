@@ -23,7 +23,7 @@ const News = ({data}) => {
     return(
         <div>
             <SEO title="News"/>
-            <Layout layoutFilter = {0} callback = {callback}> 
+            <Layout layoutFilter = {0} callback = {callback} seachFilter={1}> 
                 <NewsList data = {data} filterValue = {filterValue}/>
             </Layout>  
         </div>

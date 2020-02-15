@@ -4,7 +4,7 @@ import SearchBox from './searchbox'
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Header = ({callback}) => { 
+const Header = ({callback,seachFilter}) => { 
 
 
     const data1 = useStaticQuery(graphql`
@@ -15,7 +15,7 @@ const Header = ({callback}) => {
             id
             childImageSharp {
                 fluid {
-                ...GatsbyImageSharpFluid_tracedSVG
+                src
               }
             }
           }
@@ -24,12 +24,11 @@ const Header = ({callback}) => {
     }
   `)
 
-  console.log("Jajajajajjaja",data1.allFile.edges[0].node.childImageSharp.fluid)
   
   return(
      <div className = "header">
-          <Img key = {data1.allFile.edges[0].node.id} fluid = {data1.allFile.edges[0].node.childImageSharp.fluid}/>           
-          <SearchBox callback={callback}/> 
+          <img className="logo" src= {data1.allFile.edges[0].node.childImageSharp.fluid["src"]} alt="Logo" />           
+          { seachFilter ? <SearchBox callback={callback}/>: false}
           <ul className = "header-buttons">                 
                <Link to="#"><div className="Button">Log in</div></Link>
                <Link to="#"><div className="Button">Sign up</div></Link>                             

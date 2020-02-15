@@ -44,7 +44,7 @@ const Blog = ({data}) => {
     return(
         <div>
             <SEO title = "Blog"/>
-            <Layout>
+            <Layout seachFilter={0}>
                 <div className = "blog-container"> 
                     <button className="addBlog-button">ADD BLOG</button>
                     <div className="blog-grid">{currentPosts}</div>

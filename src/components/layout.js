@@ -5,7 +5,7 @@ import "./layout.css"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const Layout = ({children, callback,layoutFilter}) => {  
+const Layout = ({children, callback,layoutFilter,seachFilter}) => {  
   
     // Ovaj query dohvaca podatke za navigaciju i za cover image
     const nav = useStaticQuery(graphql`
@@ -57,11 +57,14 @@ const Layout = ({children, callback,layoutFilter}) => {
 
     return(
         <div  className = {className}>
-            <Header callback = {callback}/>               
+            <Header callback = {callback} seachFilter={seachFilter} />               
             <div className = "NavContainer"><Navigation navItems = {navItems}/></div>
             {layout ? <div className = "home-cover"><Img key = {nav.allFile.edges[0].node.id} fluid = {nav.allFile.edges[0].node.childImageSharp.fluid}/></div>: false}
             {children}
-            <div className = "footer">FOOTER</div>
+            <div className = "footer">
+                <div>Location: Split, Croatia</div>
+                <div>Contact: support-gaming@gmail.com</div>
+            </div>
         </div>
     )
 }

@@ -27,8 +27,9 @@ const Store = ({data}) => {
         },2000)
     }
 
-    const setProductData = (data) => { setRedirecData(data); setRedirect(1) }
-    const setButtonState = () => { setRedirect(0) }
+    const setProductData = (data) => { setRedirecData(data); setRedirect(1); window.scrollTo(0,0); }
+    const setButtonState = () => { setRedirect(0) ; window.scrollTo(0,0); 
+    }
 
     function renderRedirect ()  {
         console.log(setButtonState)
@@ -60,7 +61,7 @@ const Store = ({data}) => {
         <div>
         {redirect ? renderRedirect()  :<div>
             <SEO title = "Store"/>
-            <Layout layoutFilter = {0}>  
+            <Layout layoutFilter = {0} seachFilter ={1}>  
                 <div className = "store"> 
                     <Notification top={top}/>
                     <div className = "store-grid">                       

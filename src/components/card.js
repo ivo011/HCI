@@ -33,8 +33,8 @@ const Card = ({data,metadata,setProductData}) => {
         <div className="card">
             <div className="card-img"><Img key = {data.node.id} fluid = {data.node.childImageSharp.fluid}/> </div>
             <div className="card-info">
-                {metadata ? metadata_filtered[0] ? metadata_filtered[0]['name'] ?  <h1>{metadata_filtered[0]["name"]}</h1> : false :  false : false}
-                {metadata ? metadata_filtered[0] ? metadata_filtered[0]['price'] ?  <h3>{metadata_filtered[0]["price"]}</h3> : false :  false : false}
+                {metadata ? metadata_filtered[0] ? metadata_filtered[0]['name'] ? postFilter ? <h1>{metadata_filtered[0]["name"]}</h1> : <h1 onClick = {() => setProductData(cardData)}>{metadata_filtered[0]["name"]}</h1>: false :  false : false}
+                {metadata ? metadata_filtered[0] ? metadata_filtered[0]['price'] ? <h3>{metadata_filtered[0]["price"]}</h3> : false :  false : false}
                 {postFilter ? <h2 onClick = {() => setProductData(cardData)}>BUY NOW</h2> : false}
             </div>
        </div>        

@@ -68,6 +68,20 @@
     }
 } 
 
+@media screen and (max-width: 750px) {
+    .offers{
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .offers{
+        font-size: 11px;
+    }
+    
+}
+
 /* Ovo su stilovi za card elemente na offerima na home pageu. */
 /* Prvi je standardni a ostali su tu zbog responzivnosti poredani po redu. */
 .offers .card{

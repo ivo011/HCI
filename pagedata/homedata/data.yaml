@@ -1,12 +1,26 @@
 - key: /static/214fbed2892e79c22247a5a0db21f87e/ebd4f/1.jpg
-  name: 'Star Wars Jedi'
-  price: 100€
-  
+  name: Star Wars Jedi
+  price: 250 HRK
+  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
+  link: https://www.youtube.com/embed/coiTJbr9m04
+  producer: Activision
+  class: firstperson, shooter
+  age: 18+ 
   
 - key: /static/7355ca4b172116099f2b727f19f74bce/ebd4f/2.jpg
   name: Resident Evil 2
-  price: 200€
+  price: 300 HRK
+  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
+  link: https://www.youtube.com/embed/coiTJbr9m04
+  producer: Activision
+  class: firstperson, shooter
+  age: 18+ 
 
 - key: /static/1c05f81cf2ce8e18de9824de7de085e3/ebd4f/3.jpg
   name: Grand Theft Auto V
-  price: 300€
+  price: 400 HRK
+  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
+  link: https://www.youtube.com/embed/coiTJbr9m04
+  producer: Activision
+  class: firstperson, shooter
+  age: 18+ 

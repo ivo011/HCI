@@ -100,6 +100,11 @@ export const query = graphql`
           price
           key
           tag
+          description
+          link
+          producer
+          class
+          age
         }
       }
     }

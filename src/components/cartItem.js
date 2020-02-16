@@ -5,8 +5,6 @@ import { graphql } from 'gatsby'
 
 const CartItem = ({price, data}) => {
 
-    console.log("TEST TES TEST",data)
-
     return ( 
         <div className="cart-item">
             <div className="left">

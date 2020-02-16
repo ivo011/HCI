@@ -33,9 +33,6 @@ const Layout = ({children, callback,layoutFilter,seachFilter}) => {
     }
     `)
 
-    // Tesni ispis varijable koja dolazi iz querija gore
-    console.log("LAYOUT - Rezultat querrija za navigaciju i cover: ", nav)
-
     // Varijabla layoutFilter je varijabla pomocu koje se odreduje koji layout ce biti prikazan i hoce li se prikazat cover image
     // Children vraca elemente koji se prikazuju pa je to ili Home ili nesto drugo
     // Ako je Home ide layout za home i cover image , a za bilo sta drugo ide obicni layout bez covera

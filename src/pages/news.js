@@ -16,9 +16,6 @@ const News = ({data}) => {
     function callback(e){            
         setFilterValue(e.target.value) 
     }
-
-    // Ispis vrijednosti za search ??
-    console.log(filterValue); 
  
     return(
         <div>

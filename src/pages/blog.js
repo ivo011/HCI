@@ -10,8 +10,6 @@ import {useState, useEffect} from "react"
 
 const Blog = ({data}) => {
 
-    // Testni ispos podataka koji dolaze iz querija na dnu. Rijec je o podacima za blogove
-    console.log("BLOG - Podaci za blogove: ", data)
 
     // Ovaj dio sluzi za pagination moze se minjat moj podeseni broj od 8 postova po str
     const [posts,setPosts]=useState([])
@@ -20,7 +18,6 @@ const Blog = ({data}) => {
 
     let data1=data.allMdx.edges
     let proba =data1.sort((a, b) => (Date.parse(a.node.frontmatter.date) < Date.parse(b.node.frontmatter.date)) ? 1 : -1)
-    console.log(proba)
 
     let temp= data.allMdx.edges.map((node, index) => {                
         return <div className = "blog-post" key = {index}>

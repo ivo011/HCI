@@ -7,8 +7,6 @@ import HomeItemPage from "../components/HomeItemPage"
 
 const Home = ({data}) => {
 
-    // Testni ispod podataka koje su dosle s Index stranice
-    console.log("HOME - Ovo je data koja je dosla s Index stranice: ",data)
 
     // Stateovi za storeItemPage za svaki proizvod
     // Prvi state je za stanje kad se klikaje a drugi postavlja datu kliknutog proizvoda
@@ -19,7 +17,6 @@ const Home = ({data}) => {
     const setButtonState = () => { setRedirect(0) }
 
     function renderRedirect ()  {
-        console.log(setButtonState)
         if (redirect === 1) {
           return <div><HomeItemPage productData={redirectData} setButtonState={setButtonState}></HomeItemPage></div>
         }

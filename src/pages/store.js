@@ -32,7 +32,6 @@ const Store = ({data}) => {
     }
 
     function renderRedirect ()  {
-        console.log(setButtonState)
         if (redirect === 1) {
           return <div><StoreItemPage productData={redirectData} setButtonState={setButtonState} ShowNotification={ShowNotification}></StoreItemPage></div>
         }
@@ -61,7 +60,7 @@ const Store = ({data}) => {
         <div>
         {redirect ? renderRedirect()  :<div>
             <SEO title = "Store"/>
-            <Layout layoutFilter = {0} seachFilter ={1}>  
+            <Layout layoutFilter = {0} seachFilter ={0}>  
                 <div className = "store"> 
                     <Notification top={top}/>
                     <div className = "store-grid">                       

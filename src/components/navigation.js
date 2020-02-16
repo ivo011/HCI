@@ -3,10 +3,7 @@ import {Link} from 'gatsby'
 import "./layout.css"
 
 const Navigation = ({ navItems}) => {
-
-    // Podaci o navigaciji koji su dosli u navigacijski komponentu
-    console.log("NAVIGATION - Podaci o navigaciji koji su dosli u navigacijski komponentu: ", navItems)
-           
+        
     return(
         <ul className = "navigation">{               
                 navItems.map(({text, link})  =>(

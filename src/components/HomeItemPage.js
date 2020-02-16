@@ -19,7 +19,9 @@ const StoreItemPage = ({productData, setButtonState}) => {
           bottom: 'auto',
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',  
-          padding:'20px',   
+          padding:'20px',  
+          backgroundColor:'#1F2833',
+          color:'white'   
                          
         }
       };

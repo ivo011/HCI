@@ -25,3 +25,11 @@
     display:flex;
     justify-content: space-between;
 }
+
+.no-result{
+    width:30%;
+    padding:20px;   
+    background-color:#1F2833;
+    color:white;
+    
+}

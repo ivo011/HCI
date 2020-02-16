@@ -12,111 +12,111 @@
   name: DayZ
   price: 291 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: DayZ is a survival video game developed and published by Bohemia Interactive. It is the standalone successor of the mod of the same name. Following a five-year long early access period for Windows, the game was officially released in December 2018, and was released for the Xbox One and PlayStation 4 in 2019.
+  link: https://www.youtube.com/embed/7jk8prJA9nI
+  producer: Bohemia Interactive
+  class: First-person shooter, third-person shooter, survival
   age: 18+ 
 
 - key: /static/ea6843e6b6aa7b53f6abf5fac1707a26/ebd4f/Arma%20III.jpg
   name: Arma III
   price: 107 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: ARMA 3 is an open-world, realism-based, military tactical shooter video game developed and published by Bohemia Interactive. It was released for Microsoft Windows in September 2013, and later announced for macOS and Linux in August 2015. ARMA 3 takes place in the mid-2030s, on the islands of Altis and Stratis in the Aegean Sea, and the South Pacific island of Tanoa. The islands feature photo-realistic terrain and water environments. Altis is the largest official terrain in the ARMA series with ground area covering approximately 270 square kilometres (100 sq mi). The smaller island, Stratis, expands over an area of 20 square kilometres 
+  link: https://www.youtube.com/embed/M1YBZUxMX8g
+  producer: Bohemia Interactive
+  class: Single-player, Multiplayer, First-person shooter
   age: 18+ 
 
 - key: /static/21209180c2fa1a54ea7145ac0fcd8693/e65d4/Starwars%20Battlefront%202.jpg
   name: Starwars
   price: 230 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Star Wars Jedi Fallen Order is an action-adventure game developed by Respawn Entertainment and published by Electronic Arts. It was released for Windows, PlayStation 4, and Xbox One on November 15, 2019. The game is set in the Star Wars universe, five years after the film Star Wars Episode III – Revenge of the Sith and 14 years before Star Wars Episode IV – A New Hope, and follows a young Jedi Padawan named Cal Kestis as he is hunted through the galaxy by the Galactic Empire, while trying to complete his Jedi training and restore the now wiped out Jedi Order.
+  link: https://www.youtube.com/embed/0GLbwkfhYZk
+  producer:	Respawn Entertainment, Electronic Arts
+  class: Action-adventure
   age: 18+ 
 
 - key: /static/e5d5b820ba601eb1787cb83c5507f5c9/ebd4f/Skyrim%205.jpg
-  name: Skyrim 5
+  name: Skyrim 
   price: 140 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: The game's main story revolves around the player's character, the Dragonborn, on their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world. The game is set 200 years after the events of Oblivion and takes place in Skyrim, the northernmost province of Tamriel. Over the course of the game, the player completes quests and develops the character by improving skills. The game continues the open-world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time, and to ignore or postpone the main storyline indefinitely.
+  link: https://www.youtube.com/embed/JSRtYpNRoN0
+  producer: Bethesda Game Studios
+  class: Action role-playing
+  age: 16+ 
 
 - key: /static/601a83e428a4b8abefa651de4c4ce064/ca45b/Red%20Dead%20Redemption.jpg
   name: RDR 2
   price: 500 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: The game is presented through both first and third-person perspectives, and the player may freely roam in its interactive open world. Gameplay elements include shootouts, heists, hunting, horseback riding, interacting with non-player characters (NPCs), and maintaining the character's honor rating through moral choices and deeds. A bounty system similar to the "wanted" system from the Grand Theft Auto franchise governs the response of law enforcement and bounty hunters to crimes committed by the player. Red Dead Redemption 2 was released for the PlayStation 4 and Xbox One in October 2018, and for Microsoft Windows and Stadia in November 2019. Red Dead Online, the online multiplayer mode of the game, was released as a beta version in November 2018 before a full release in May 2019.
+  link: https://www.youtube.com/embed/eaW0tYpxyp0
+  producer: Rockstar Studios
+  class: 	Action-adventure
   age: 18+ 
 
 - key: /static/cd8d1f1a31bdff90a466c454510adb2f/ebd4f/Planet%20Zoo.jpg
   name: Planet Zoo
   price: 320 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: Planet Zoo is a construction and management simulation video game developed and published by Frontier Developments for Microsoft Windows. The game is a spiritual successor to Zoo Tycoon, with gameplay similar to the studio's theme park variant, Planet Coaster. It was released on 5 November 2019
+  link: https://www.youtube.com/embed/gNg6-JVx_9M
+  producer: Frontier Developments plc
+  class: Construction and management simulation
+  age: 10+ 
 
 - key: /static/7377b8ea4325e0f787b44d05e582044f/ebd4f/PES%202020.jpg
   name: PES 2020
   price: 250 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: Pro Evolution Soccer 2020 (abbreviated eFootball PES2020) is a football simulation video game developed by PES Productions and published by Konami for Microsoft Windows, PlayStation 4, Xbox One, Android and IOS. The game is the 19th installment in the Pro Evolution Soccer series and was launched worldwide on 10 September 2019, and was launched in Asia on 12 September 2019. The new game features a name change with the addition of 'eFootball' within the title, symbolizing a push in the online gaming space with a focus on eFootball Pro tournaments
+  link: https://www.youtube.com/embed/_89i5H1zAeU
+  producer: PES Productions
+  class: Sports
+  age: 6+ 
 
 - key: /static/ca512b07640a03a2a6b94acdc7b2240b/ebd4f/Need%20for%20Speed%20Unleashed.jpg
   name: Need for Speed
   price: 283 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: Need for Speed is a racing video game franchise published by Electronic Arts and currently developed by Criterion Games. The series centers around illicit street racing and in general tasks players to complete various types of races while evading the local law enforcement in police pursuits
+  link: https://www.youtube.com/embed/21bg2moGRU8
+  producer: Criterion Games
+  class: Racing
+  age: 3+ 
 
 - key: /static/015e7211aca83e504dfb783f6502dd86/ebd4f/NBA2K20.jpg
   name: NBA2K20
   price: 282 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: NBA 2K20 is a basketball simulation video game developed by Visual Concepts and published by 2K Sports, based on the National Basketball Association. It is the 21st installment in the NBA 2K franchise and the successor to NBA 2K19. 
+  link: https://www.youtube.com/embed/UB8L_pvzbIk
+  producer:	Visual Concepts
+  class: Sports
+  age: 3+ 
 
 - key: /static/6871cbcb65e0784593e510ba2e8ffe45/ebd4f/Mafia%20III.jpg
   name: Mafia III
   price: 260 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Mafia III is an action-adventure video game developed by Hangar 13 and published by 2K Games. It was released in October 2016 for PlayStation 4, Xbox One, and Microsoft Windows, and in May 2017 for macOS. It is the third main game in the Mafia series, and the sequel to Mafia II. Set within the fictional city of New Bordeaux, based on New Orleans, the single-player story follows Lincoln Clay, a criminal who aims to build a new crime organization while seeking revenge on the Italian mob.
+  link: https://www.youtube.com/embed/j6dgC5RMXRs
+  producer: Hangar 13
+  class: Action-adventure
   age: 18+ 
 
 - key: /static/d754d4a5850f09248c3ba7fd1527fc11/ca45b/Civilization%20VI.jpg
   name: Civilization VI
   price: 250 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: Sid Meier's Civilization VI is a turn-based strategy 4X video game developed by Firaxis Games, published by 2K Games, and distributed by Take-Two Interactive. The latest entry into the Civilization series, it was released on Microsoft Windows and macOS in October 2016, with later ports for Linux in February 2017, iOS in December 2017, Nintendo Switch in November 2018, and PlayStation 4 and Xbox One in November 2019.
+  link: https://www.youtube.com/embed/5KdE0p2joJw
+  producer:	Firaxis Games
+  class: Turn-based strategy
+  age: 15+ 
 
 - key: /static/c086bb086329b4aadabe61222bbcc067/1a903/Football%20Manager%202020.jpg"
   name: FM 2020
@@ -132,38 +132,38 @@
   name: Far Cry 3
   price: 110 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: ar Cry 3 is a 2012 first-person shooter developed by Ubisoft Montreal and published by Ubisoft. It is the third main installment in the Far Cry series. The game takes place on the fictional Rook Islands, a tropical archipelago which can be freely explored by players. Gameplay focuses on combat and exploration.
+  link: https://www.youtube.com/embed/J6gnOVJsCsM
+  producer:	Ubisoft Montreal
+  class: First-person shooter
   age: 18+ 
 
 - key: /static/0a12ffaec9d65d2a9062940c128fd7d1/ca45b/Fallout%2076.jpg
   name: Fallout 76
   price: 230 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Fallout 76 is an online action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. Released for Microsoft Windows, PlayStation 4, and Xbox One on November 14, 2018, it is an installment in the Fallout series and a prequel to previous entries
+  link: https://www.youtube.com/embed/M9FGaan35s0
+  producer: Bethesda Game Studios
+  class: Action role-playing
   age: 18+ 
 
 - key: /static/658f03f9a2cc5edc63715d8071866ad2/ebd4f/Fallout%204.jpg
   name: Fallout 4
   price: 250 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Fallout 4 is an action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the fifth major installment in the Fallout series and was released worldwide on November 10, 2015, for Microsoft Windows, PlayStation 4 and Xbox One. The game is set within an open world post-apocalyptic environment that encompasses the city of Boston and the surrounding Massachusetts region known as "The Commonwealth". The main story takes place in the year 2287, ten years after the events of Fallout 3 and 210 years after "The Great War", which caused catastrophic nuclear devastation across the United States.
+  link: https://www.youtube.com/embed/X5aJfebzkrM
+  producer: Bethesda Game Studios
+  class: Action role-playing
   age: 18+ 
 
 - key: /static/29f0ace2a348e8bbf7e565ccdbcf8475/01f29/Call%20of%20Duty%20Black%20%20Ops.jpg
   name: Call of Duty
   price: 101 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
+  description: Call of Duty Black Ops is a 2010 first-person shooter, developed by Treyarch and published by Activision. It was released worldwide in November 2010 for Microsoft Windows, the PlayStation 3, Xbox 360, and Wii, with a separate version for Nintendo DS developed by n-Space. Aspyr later released the game for OS X in September 2012. It is the seventh title in the Call of Duty series and the third to be developed by Treyarch. It serves as the sequel to Call of Duty World at War
+  link: https://www.youtube.com/embed/OtRnpC7ddv8
   producer: Activision
   class: firstperson, shooter
   age: 18+ 
@@ -172,19 +172,19 @@
   name: Diablo 3
   price: 200 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Diablo III is a hack-and-slash action role-playing game developed and published by Blizzard Entertainment as the third installment in the Diablo franchise. It was released for Microsoft Windows and OS X in May 2012, the PlayStation 3 and Xbox 360 in September 2013, the PlayStation 4 and Xbox One in August 2014, and the Nintendo Switch in November 2018. Players choose to play as one of seven character classes – Barbarian, Crusader, Demon Hunter, Monk, Necromancer, Witch Doctor, or Wizard – and are tasked with defeating the Lord of Terror, Diablo, as in previous games in the series.
+  link: https://www.youtube.com/embed/M2TpNQhfkp4
+  producer: Blizzard Entertainment
+  class: 	Action role-playing
   age: 18+ 
 
 - key: /static/b5bc6c112253ccd3c2c15cd137c07f6b/ebd4f/Borderlands%203.jpg
   name: Borderlands 3
   price: 120 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
+  description: Players complete quests and side missions, in single-player or multiplayer, as one of four classes. When killed, enemies may drop weapons and gear which can be equipped. New abilities are unlocked as the player gains experience. Unlike previous games, the levels of Borderlands 3 take place on multiple planets. The plot is centered around stopping the cult-leading twins, Troy and Tyreen Calypso, from harnessing the power of the alien Vaults spread across the galaxy.
+  link: https://www.youtube.com/embed/Av5Eyx3bGtM
+  producer: Gearbox Software
   class: firstperson, shooter
   age: 18+ 
   
@@ -192,20 +192,20 @@
   name: Metal Gear Survive
   price: 100 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Metal Gear Survive is an action-adventure survival game developed and published by Konami. It was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One in February 2018. It is the first Metal Gear game to be developed following the series' creator Hideo Kojima's departure from Konami in late 2015, and the first since 1990's Snake's Revenge to be made without Kojima's input. The game takes place between the events of Metal Gear Solid V Ground Zeroes and Metal Gear Solid V The Phantom Pain, and follows the Captain, an MSF soldier who enters a parallel dimension and establishes a local command center to unravel the mysteries of a strange virus that turns people into zombie-like creatures.
+  link: https://www.youtube.com/embed/X3hjRKGrC40
+  producer: Konami Digital Entertainment
+  class: 	Action-adventure, survival
   age: 18+ 
 
 - key: /static/b792f14ac8efb406d2383e686d6ca3b6/ebd4f/298756-scania-truck-driving-simulator-the-game-windows-front-cover.jpg
   name: Truck Driving Simulator
   price: 100 HRK
   tag: store
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  description: Scania Truck Driving Simulator. Get behind the wheel of one of the most iconic trucks on the road with this highly detailed Scania R-series simulation. Put your driving skills to the ultimate test with truck maneuvering challenges that serve as a practical exam as you strive to gain your licence.
+  link: https://www.youtube.com/embed/WhTIKpPIhqA
+  producer: SCS Software
+  class: Vehicle simulation
+  age: 5+ 
 
 

@@ -51,3 +51,9 @@
     width:20vh;
     margin:5px;
 }
+@media screen and (max-width: 600px) {
+    .cart-page{
+       padding:5px;
+    }
+    
+}

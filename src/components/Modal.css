@@ -2,17 +2,15 @@
     padding: 10px 20px;
     margin: 5px;
 }
-.yes{
-    background-color: lightgreen;
-}
-.no{
-    background-color: tomato;
-}
+
 .modalInfo h1{
     margin:0;
 }
 .modalInfo button{
     padding: 10px 25px;
+    border:1px solid white; 
+    color: white;
+    cursor: pointer;
 }
 .modalInfo{
     display:flex;

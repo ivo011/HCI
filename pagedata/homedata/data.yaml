@@ -1,26 +1,26 @@
 - key: /static/214fbed2892e79c22247a5a0db21f87e/ebd4f/1.jpg
   name: Star Wars Jedi
   price: 250 HRK
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Star Wars Jedi Fallen Order is an action-adventure game developed by Respawn Entertainment and published by Electronic Arts. It was released for Windows, PlayStation 4, and Xbox One on November 15, 2019. The game is set in the Star Wars universe, five years after the film Star Wars Episode III – Revenge of the Sith and 14 years before Star Wars Episode IV – A New Hope, and follows a young Jedi Padawan named Cal Kestis as he is hunted through the galaxy by the Galactic Empire, while trying to complete his Jedi training and restore the now wiped out Jedi Order.
+  link: https://www.youtube.com/embed/0GLbwkfhYZk
+  producer: Respawn Entertainment
+  class: Action-adventure
   age: 18+ 
   
 - key: /static/7355ca4b172116099f2b727f19f74bce/ebd4f/2.jpg
   name: Resident Evil 2
   price: 300 HRK
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Resident Evil 2 is a survival horror game developed and published by Capcom. A remake of the 1998 game of the same name, it was released for Microsoft Windows, PlayStation 4, and Xbox One on January 25, 2019. Players control police officer Leon S. Kennedy and college student Claire Redfield as they attempt to escape from Raccoon City during a zombie apocalypse.
+  link: https://www.youtube.com/embed/u3wS-Q2KBpk
+  producer: Capcom
+  class: Survival horror
   age: 18+ 
 
 - key: /static/1c05f81cf2ce8e18de9824de7de085e3/ebd4f/3.jpg
   name: Grand Theft Auto V
   price: 400 HRK
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
+  description: Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three criminals and their efforts to commit heists while under pressure from a government agency and powerful crime figures. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles.
+  link: https://www.youtube.com/embed/QkkoHAzjnUs
+  producer: Rockstar Games
+  class: 	Action-adventure
   age: 18+ 

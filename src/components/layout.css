@@ -27,7 +27,7 @@ body{
     .layoutMain  {
         display: grid;
         grid-template-columns : 1fr;
-        grid-template-rows: 50px 1fr 8fr 0.5fr;
+        grid-template-rows: 1fr 1fr 8fr 0.5fr;  /* PROMIJENJENO*/
         grid-template-areas: 
         "header"
         "navigation"
@@ -50,11 +50,17 @@ body{
     height: 30px;
     align-self:  center;
     border: 1px solid black;   
-    min-width: 120px; 
+    min-width: 100px;  /* PROMIJENJENO */
 }
 
 .header-buttons{
     display:flex;  
+}
+
+@media screen and (max-width: 425px) {
+.header-buttons{
+    font-size: 11px; /* DODANO */
+}
 }
 
 .header-buttons .Button{
@@ -62,7 +68,7 @@ body{
     border-top: none;
     margin: 0px 5px; 
     padding: 10px 20px;  
-    max-height: 50px;
+    max-height: 50px;  /* MOZDA DODANO*/
 }
 .header-buttons a{    
     text-decoration: none; 

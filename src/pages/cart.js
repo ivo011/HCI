@@ -14,10 +14,10 @@ const Cart = ({data}) => {
                 <div className="cart-page">
                     <h1 className="inCart">In cart:</h1>
                     <div className="cart-grid">
-                        <CartItem name={"Civilization VI"} price={"250 HRK"} data={data}/>
-                        <CartItem name={"Fallout 76"} price={"230 HRK"} data={data}/>
-                        <CartItem name={"Skyrim 5"} price={"140 HRK"} data={data}/>                        
-                        <CartItem name={"Diablo 3"} price={"200 HRK"} data={data}/>                    
+                        <CartItem price={"250 HRK"} data={data.allFile.edges[0]}/>
+                        <CartItem price={"230 HRK"} data={data.allFile.edges[1]}/>
+                        <CartItem price={"140 HRK"} data={data.allFile.edges[2]}/>                        
+                        <CartItem price={"200 HRK"} data={data.allFile.edges[3]}/>                    
                     </div>
                     <h1 className="total">total:</h1>
                 </div>
